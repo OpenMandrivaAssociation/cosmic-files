@@ -12,6 +12,7 @@ Source2:        cargo_config
 
 BuildRequires:  rust-packaging
 BuildRequires:  hicolor-icon-theme
+BuildRequires:  git
 BuildRequires:  just
 BuildRequires:  pkgconfig
 BuildRequires:  pkgconfig(glib-2.0)
