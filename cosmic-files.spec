@@ -27,6 +27,8 @@ mkdir .cargo
 cp %{SOURCE2} .cargo/config
 
 %build
+export VERGEN_GIT_COMMIT_DATE="$(date --utc '+%Y-%m-%d %H:%M:%S %z')"
+export VERGEN_GIT_SHA=$_commit
 just build-release
 
 %install
