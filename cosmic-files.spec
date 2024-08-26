@@ -1,3 +1,4 @@
+%undefine _debugsource_packages
 %define         appname com.system76.CosmicFiles
 Name:           cosmic-files
 Version:        1.0.0
@@ -27,6 +28,9 @@ mkdir .cargo
 cp %{SOURCE2} .cargo/config
 
 %build
+# Build failure workaround: https://github.com/pop-os/cosmic-files/issues/392#issuecomment-2308954953
+export VERGEN_GIT_COMMIT_DATE="$(date --utc '+%Y-%m-%d %H:%M:%S %z')"
+export VERGEN_GIT_SHA=$_commit
 just build-release
 
 %install
