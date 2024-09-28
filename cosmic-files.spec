@@ -40,6 +40,7 @@ just rootdir=%{buildroot} prefix=%{_prefix} install
 %license LICENSE
 %doc README.md
 %{_bindir}/%{name}
+%{_bindir}/%{name}-applet
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/icons/hicolor/*/apps/%{appname}.svg
 %{_datadir}/metainfo/%{appname}.metainfo.xml
