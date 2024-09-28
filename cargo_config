@@ -11,13 +11,17 @@ git = "https://github.com/gfx-rs/wgpu"
 rev = "20fda69"
 replace-with = "vendored-sources"
 
+[source."git+https://github.com/jackpot51/filetime"]
+git = "https://github.com/jackpot51/filetime"
+replace-with = "vendored-sources"
+
 [source."git+https://github.com/jackpot51/rust-atomicwrites"]
 git = "https://github.com/jackpot51/rust-atomicwrites"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/jackpot51/trash-rs.git?branch=delete-info"]
+[source."git+https://github.com/jackpot51/trash-rs.git?branch=cosmic"]
 git = "https://github.com/jackpot51/trash-rs.git"
-branch = "delete-info"
+branch = "cosmic"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/cosmic-protocols?rev=c8d3a1c"]
