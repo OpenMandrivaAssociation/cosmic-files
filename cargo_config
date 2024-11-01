@@ -6,11 +6,6 @@ git = "https://github.com/DioxusLabs/taffy"
 rev = "7781c70"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/gfx-rs/wgpu?rev=20fda69"]
-git = "https://github.com/gfx-rs/wgpu"
-rev = "20fda69"
-replace-with = "vendored-sources"
-
 [source."git+https://github.com/jackpot51/filetime"]
 git = "https://github.com/jackpot51/filetime"
 replace-with = "vendored-sources"
@@ -37,9 +32,9 @@ replace-with = "vendored-sources"
 git = "https://github.com/pop-os/fs_extra.git"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/glyphon.git?tag=v0.5.0"]
+[source."git+https://github.com/pop-os/glyphon.git?tag=iced-0.14-dev"]
 git = "https://github.com/pop-os/glyphon.git"
-tag = "v0.5.0"
+tag = "iced-0.14-dev"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/libcosmic.git"]
@@ -56,19 +51,19 @@ git = "https://github.com/pop-os/softbuffer"
 tag = "cosmic-4.0"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/window_clipboard.git?tag=pop-dnd-8"]
+[source."git+https://github.com/pop-os/window_clipboard.git?tag=pop-0.13"]
 git = "https://github.com/pop-os/window_clipboard.git"
-tag = "pop-dnd-8"
+tag = "pop-0.13"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/winit.git?branch=winit-0.29"]
+[source."git+https://github.com/pop-os/winit.git?tag=iced-xdg-surface-0.13"]
 git = "https://github.com/pop-os/winit.git"
-branch = "winit-0.29"
+tag = "iced-xdg-surface-0.13"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/wash2/accesskit.git?branch=winit-0.29"]
-git = "https://github.com/wash2/accesskit.git"
-branch = "winit-0.29"
+[source."git+https://github.com/wash2/accesskit?tag=iced-xdg-surface-0.13"]
+git = "https://github.com/wash2/accesskit"
+tag = "iced-xdg-surface-0.13"
 replace-with = "vendored-sources"
 
 [source.vendored-sources]
