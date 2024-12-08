@@ -19,17 +19,13 @@ git = "https://github.com/jackpot51/trash-rs.git"
 branch = "cosmic"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/cosmic-protocols?rev=c8d3a1c"]
+[source."git+https://github.com/pop-os/cosmic-protocols?rev=d218c76"]
 git = "https://github.com/pop-os/cosmic-protocols"
-rev = "c8d3a1c"
+rev = "d218c76"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/cosmic-text.git"]
 git = "https://github.com/pop-os/cosmic-text.git"
-replace-with = "vendored-sources"
-
-[source."git+https://github.com/pop-os/fs_extra.git"]
-git = "https://github.com/pop-os/fs_extra.git"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/glyphon.git?tag=iced-0.14-dev"]
