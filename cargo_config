@@ -19,13 +19,21 @@ git = "https://github.com/jackpot51/trash-rs.git"
 branch = "cosmic"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/cosmic-protocols?rev=d218c76"]
+[source."git+https://github.com/pop-os/cosmic-mime-apps.git"]
+git = "https://github.com/pop-os/cosmic-mime-apps.git"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/cosmic-protocols?rev=178eb0b"]
 git = "https://github.com/pop-os/cosmic-protocols"
-rev = "d218c76"
+rev = "178eb0b"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/cosmic-text.git"]
 git = "https://github.com/pop-os/cosmic-text.git"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/dbus-settings-bindings"]
+git = "https://github.com/pop-os/dbus-settings-bindings"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/freedesktop-icons"]
