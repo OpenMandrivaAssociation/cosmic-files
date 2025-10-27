@@ -2,7 +2,7 @@
 %define         appname com.system76.CosmicFiles
 Name:           cosmic-files
 Version:        1.0.0
-%define beta beta.1.1
+%define beta beta.3
 Release:        %{?beta:0.%{beta}.}1
 Summary:        COSMIC file manager
 Group:          Utility/COSMIC
