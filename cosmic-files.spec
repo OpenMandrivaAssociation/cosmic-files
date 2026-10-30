@@ -43,6 +43,8 @@ just rootdir=%{buildroot} prefix=%{_prefix} install
 %doc README.md
 %{_bindir}/%{name}
 %{_bindir}/%{name}-applet
+%{_bindir}/%{name}-files-thumbnailer
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/icons/hicolor/*/apps/%{appname}.svg
 %{_datadir}/metainfo/%{appname}.metainfo.xml
+%{_datadir}/thumbnailers/com.system76.CosmicFiles.thumbnailer
